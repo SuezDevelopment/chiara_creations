@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                        Need to discuss your project?
+                        How Can We Help?
                       </h3>
                       <p className="text-base text-body-color dark:text-dark-6">
                         info@yourdomain.com

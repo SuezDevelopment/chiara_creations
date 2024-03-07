@@ -12,7 +12,7 @@ const Contact = () => {
                     CONTACT US
                   </span>
                   <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                    Let Chiara Creations transform your space.
+                    Let&#39;s talk about your problem.
                   </h2>
                 </div>
                 <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -33,7 +33,7 @@ const Contact = () => {
                         Our Location
                       </h3>
                       <p className="text-base text-body-color dark:text-dark-6">
-                        One fold bus stop, Gberigbe ReactNode, Ikorodu, Lagos.
+                        One fold bus stop, 24th Floor, Ikorodu, London
                       </p>
                     </div>
                   </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                        Need to discuss your project?
+                        How Can We Help?
                       </h3>
                       <p className="text-base text-body-color dark:text-dark-6">
                         info@yourdomain.com
