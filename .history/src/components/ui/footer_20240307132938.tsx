@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container px-4 mx-auto">
           <div className="mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-5 w-full max-w-full lg:mb-16">
+              <div className="mb-5 ] lg:mb-16">
                 <Link href="/" className="mb-8 flex items-center space-x-2">
                   <Image
                     src="/images/logo.png"
