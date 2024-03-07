@@ -14,6 +14,8 @@ export interface HomepageMeta {
 
 export interface Service {
     name: string;
+    url: string;
     description: string;
-    icon?: string;
+    icon: string;
+    homeage: HomepageMeta;
 }
