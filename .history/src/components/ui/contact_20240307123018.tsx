@@ -33,7 +33,7 @@ const Contact = () => {
                         Our Location
                       </h3>
                       <p className="text-base text-body-color dark:text-dark-6">
-                        One fold bus stop, Gberigbe road, Ikorodu, Lagos.
+                        One fold bus stop, Gberigbe ReactNode, Ikorodu, Lagos.
                       </p>
                     </div>
                   </div>
