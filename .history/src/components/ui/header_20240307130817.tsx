@@ -47,7 +47,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header left-0 right-0 top-0 z-40 flex w-full items-center ${
+        className={`header left-0 ri top-0 z-40 flex w-full items-center ${
           sticky
             ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
             : "absolute bg-transparent"
@@ -76,7 +76,7 @@ const Header = () => {
                   height={30}
                   className="hidden w-full dark:block"
                 />
-              <span className="text-2xl sm:text-xl md:text-3xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
+              <span class="text-2xl sm:text-xl md:text-3xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">

@@ -76,7 +76,7 @@ const Header = () => {
                   height={30}
                   className="hidden w-full dark:block"
                 />
-              <span className="text-2xl sm:text-xl md:text-3xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
+              <span class="text-2xl sm:text-xl md:text-3xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
