@@ -25,7 +25,7 @@ const Footer = () => {
                     width={40}
                     height={30}
                   />
-                  <span className="text-2xl sm:text-xl md:text-2xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
+                  <span className="text-2xl sm:text-xl md:text-3xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
                 </Link>
                 <p className="mb-9 leading-relaxed font-bold text-lg text-body-color dark:text-body-color-dark">
                     Handcrafted Wood & Metal Furniture for Every Space
