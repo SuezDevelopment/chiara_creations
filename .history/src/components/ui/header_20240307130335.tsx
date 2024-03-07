@@ -55,7 +55,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-full max-w-full px-4 xl:mr-12 relative z-20 flex justify-between md:px-0 lg:w-max">
+            <div className="w-20 max-w-full px-4 xl:mr-12 relative z-20 flex w-full justify-between md:px-0 lg:w-max">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
