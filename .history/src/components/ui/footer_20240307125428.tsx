@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-5 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 flex items-center -space-x-2">
+                <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo.png"
                     alt="logo"
@@ -25,7 +25,6 @@ const Footer = () => {
                     width={40}
                     height={30}
                   />
-                  <span className="text-2xl sm:text-xl md:text-3xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
                 </Link>
                 <p className="mb-9 leading-relaxed font-bold text-lg text-body-color dark:text-body-color-dark">
                     Handcrafted Wood & Metal Furniture for Every Space
