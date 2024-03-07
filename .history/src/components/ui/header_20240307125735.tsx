@@ -76,7 +76,6 @@ const Header = () => {
                   height={30}
                   className="hidden w-full dark:block"
                 />
-              <p>Chiara Creations</p>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
