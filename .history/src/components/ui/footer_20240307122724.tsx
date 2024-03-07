@@ -22,11 +22,11 @@ const Footer = () => {
                     src="/images/logo.png"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={70}
+                    width={140}
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 leading-relaxed font-bold text-lg text-body-color dark:text-body-color-dark">
+                <p className="mb-9 leading-relaxed text-lg text-body-color dark:text-body-color-dark">
                     Handcrafted Wood & Metal Furniture for Every Space
                 </p>
                 <div className="flex items-center">
