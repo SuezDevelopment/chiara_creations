@@ -8,10 +8,10 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
               <div className="ud-contact-content-wrapper">
                 <div className="ud-contact-title mb-12 lg:mb-[150px]">
-                  <span className="mb-6 block text-base font-medium text-dark">
+                  <span className="mb-6 block text-base font-medium text-dark dark:text-white">
                     CONTACT US
                   </span>
-                  <h2 className="max-w-[260px] text-[35px] font-bold leading-[1.14] text-dark">
+                  <h2 className="max-w-[260px] text-[35px] font-bold leading-[1.14] text-dark dark:text-white">
                     Let Chiara Creations transform your space.
                   </h2>
                 </div>
@@ -29,7 +29,7 @@ const Contact = () => {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="mb-[18px] text-lg font-semibold text-dark">
+                      <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
                         Our Location
                       </h3>
                       <p className="text-base text-body-color dark:text-dark-6">
@@ -49,7 +49,7 @@ const Contact = () => {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="mb-[18px] text-lg font-semibold text-dark">
+                      <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
                         Need to discuss your project?
                       </h3>
                       <p className="text-base text-body-color dark:text-dark-6">
@@ -69,7 +69,7 @@ const Contact = () => {
                 data-wow-delay=".2s
                 "
               >
-                <h3 className="mb-8 text-2xl font-semibold text-dark md:text-[28px] md:leading-[1.42]">
+                <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
                   Send us a Message
                 </h3>
                 <form>
@@ -84,7 +84,7 @@ const Contact = () => {
                       type="text"
                       name="fullName"
                       placeholder="Adam Gelius"
-                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3"
+                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                     />
                   </div>
                   <div className="mb-[22px]">
@@ -98,7 +98,7 @@ const Contact = () => {
                       type="email"
                       name="email"
                       placeholder="example@yourmail.com"
-                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3"
+                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                     />
                   </div>
                   <div className="mb-[22px]">
@@ -112,7 +112,7 @@ const Contact = () => {
                       type="text"
                       name="phone"
                       placeholder="+885 1254 5211 552"
-                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3"
+                      className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                     />
                   </div>
                   <div className="mb-[30px]">
@@ -126,7 +126,7 @@ const Contact = () => {
                       name="message"
                       rows={1}
                       placeholder="type your message here"
-                      className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3"
+                      className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                     ></textarea>
                   </div>
                   <div className="mb-0">
