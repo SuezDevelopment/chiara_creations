@@ -22,7 +22,7 @@ const Footer = () => {
                     src="/images/logo.png"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={740}
+                    width={70}
                     height={30}
                   />
                 </Link>

@@ -9,7 +9,7 @@ import { UrlObject } from "url";
 
 
 const menuData: { path: string | UrlObject; title: string | number | boolean | PromiseLikeOfReactNode | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | null | undefined; submenu: any[]; }[] = [
-    
+
 ];
 
 const Header = () => {
@@ -63,21 +63,20 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo.png"
-                  alt="logo"
-                  width={40}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
+                    src="/images/logo.png"
+                    alt="logo"
+                    className="w-full dark:hidden"
+                    width={40}
+                    height={30}
+                  />
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo/logo.svg"
                   alt="logo"
-                  width={40}
+                  width={140}
                   height={30}
                   className="hidden w-full dark:block"
                 />
               </Link>
-              <p>Chiara Creations</p>
             </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>
