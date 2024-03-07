@@ -58,7 +58,7 @@ const Header = () => {
             <div className="w-full max-w-full px-4 xl:mr-12 relative z-20 flex justify-between md:px-0 lg:w-max">
               <Link
                 href="/"
-                className={`header-logo w-full flex items-center -space-x-2 ${
+                className={`header-logo block w-full flex items-center -space-x-2 ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
@@ -76,7 +76,7 @@ const Header = () => {
                   height={30}
                   className="hidden w-full dark:block"
                 />
-              <span class="text-2xl sm:text-xl md:text-3xl font-bold text-gray-900 dark:text-gray">Chiara Creations</span>
+              <p>Chiara Creations</p>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
