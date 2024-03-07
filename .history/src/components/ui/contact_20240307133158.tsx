@@ -111,7 +111,7 @@ const Contact = () => {
                     <input
                       type="text"
                       name="phone"
-                      placeholder="+234 8135 211 535"
+                      placeholder="+234 55211 552"
                       className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3"
                     />
                   </div>

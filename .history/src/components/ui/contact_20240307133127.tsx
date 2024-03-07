@@ -111,7 +111,7 @@ const Contact = () => {
                     <input
                       type="text"
                       name="phone"
-                      placeholder="+234 8135 211 535"
+                      placeholder="+885 1254 5211 552"
                       className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3"
                     />
                   </div>
@@ -132,7 +132,7 @@ const Contact = () => {
                   <div className="mb-0">
                     <button
                       type="submit"
-                      className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-extrabold transition duration-300 ease-in-out hover:bg-primary/90"
+                      className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium transition duration-300 ease-in-out hover:bg-primary/90"
                     >
                       Send
                     </button>
